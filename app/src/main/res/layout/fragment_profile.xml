@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnUpdate_Info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:id="@+id/imageView_Avatar"
+        android:layout_width="423dp"
+        android:layout_height="280dp"
+        android:layout_marginLeft="0dp"
+         />
+
+        <EditText
+            android:id="@+id/textCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="270dp"
+            android:background="@drawable/my_border"
+            android:paddingLeft="20dp"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/textName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/my_border"
+            android:paddingLeft="20dp"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/textCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/my_border"
+            android:paddingLeft="20dp"
+            android:text="" />
+
+
+
+        <EditText
+            android:id="@+id/textDistrict"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="370dp"
+            android:background="@drawable/my_border"
+            android:paddingLeft="20dp"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/numberphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/my_border"
+            android:paddingLeft="20dp"
+            android:text="" />
+
+
+        <Spinner
+            android:id="@+id/spinner_district"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="430dp"
+            android:paddingLeft="40dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_ward"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:paddingLeft="40dp"/>
+
+        <Button
+            android:id="@+id/button_update_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Information"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="500dp"/>
+        <Button
+            android:id="@+id/History"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="History"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="550dp"/>
+
+
+    <Button
+        android:id="@+id/Logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="620dp"
+        android:text="Log out" />
+
+
+</FrameLayout>

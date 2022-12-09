@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OtherFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/otherName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/my_border"/>
+
+        <TextView
+            android:id="@+id/otherCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/my_border"/>
+
+        <TextView
+            android:id="@+id/otherCourseMajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:paddingLeft="20dp"
+            android:textSize="20dp"
+            android:background="@drawable/my_border"/>
+
+        <TextView
+            android:id="@+id/otherAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/my_border"/>
+
+        <TextView
+            android:id="@+id/otherPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/my_border"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/otherPostRecycler"
+            tools:listitem="@layout/item"/>
+
+        <Button
+            android:id="@+id/btnBackToAlert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back to Alert" />
+    </LinearLayout>
+</FrameLayout>
